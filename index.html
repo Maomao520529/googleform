@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>表單製作</title>
+    <link rel="stylesheet" href="./css/all.css">
+</head>
+<body>
+    <div class="wrap">
+      <h1>
+          六角西餐廳
+      </h1>
+      <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSdN0M30GB6NSQxfeAhWK0B4PSpuIPGVLnoWo4TrksqtkeKtRA/formResponse" method="POST">
+          <div class="formTop">
+              <div class="inputBox">
+                <label for="name">姓名</label>
+                <input type="text" id="name" name="entry.104959259">
+              </div>
+              <div class="inputBox">
+                <label for="phone">電話</label>
+                <input type="tel" id="phone" name="entry.403616441">
+            </div>
+          </div>
+          <div class="inputBox">
+              <label for="date">日期</label>
+              <input type="date" id="date" name="entry.650799372">
+              <input type="hidden" name="entry.650799372_year">
+              <input type="hidden" name="entry.650799372_month">
+              <input type="hidden" name="entry.650799372_day">
+          </div>
+          <div class="inputBox">
+              <label for="num">用餐人數</label>
+              <select name="entry.1491692660" id="num">
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
+                  <option value="6">6</option>
+                  <option value="7">7</option>
+                  <option value="8">8</option>
+                  <option value="9">9</option>
+                  <option value="10">10</option>
+              </select>
+          </div>
+          <div class="inputBox">
+              <label for="#">其他項目</label>
+          </div>
+          <p>
+            <input type="checkBox" value="需要兒童座椅" name="entry.901461210" id="check1">
+            <label for="check1">需要兒童餐椅</label>
+          </p>
+          <p>
+            <input type="checkBox" value="素食餐點" name="entry.901461210" id="check2">
+            <label for="check2">素食餐點</label>
+          </p>
+          <p>
+            <input type="checkBox" value="吸煙區" name="entry.901461210" id="check3">
+            <label for="check3">吸煙區</label>
+          </p>
+          <input type="submit" class="submit" value="送出">
+      </form>
+    </div>
+</body>
+</html>
